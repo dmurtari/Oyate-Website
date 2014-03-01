@@ -1,0 +1,132 @@
+/*****************************************/
+/* General CSS */
+
+body{
+	max-width: 1024px;
+	min-width: 750px;
+	margin: 0 auto;
+	background-image: url("../images/ticks.png"); /*From subtlepatterns.com*/
+	color: #E1E1E1;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+div#content{
+	margin: 0 auto 0;
+	width: 95%;
+	padding: 0 2% 2% 2%;
+	background-color: #FFFFFF; 
+	border-radius: 5%;
+	overflow: auto;
+}
+
+a:link{
+	text-decoration: none;
+	color: #D08547;
+}
+
+a:visited{
+	color: #733808;
+}
+
+a:hover{
+	color: #D0996B;
+}
+
+header a:link{
+	text-decoration: none;
+	color: #802727;
+}
+
+header a#on{
+	color: #D04747;
+	font-size: 115%;
+}
+
+header a:visited{
+	color: #730808;
+}
+
+header a:hover{
+	color: #D04747;
+}
+
+img.small{
+	width: 100%;
+	height: 100%;
+}
+
+/*****************************************/
+/* CSS for Navbar */
+
+header{
+	margin: 0 auto 0;
+	padding: 0px
+}
+
+#textlogo{
+	float: left;
+}
+
+#logo{
+	float: right;
+}
+
+ul#navbar{
+	margin: 0 auto 0;
+	text-align: center;
+	border-top: 2px solid #3CB0B0;
+	border-bottom: 2px solid #3CB0B0;
+	padding: 2% 2% 2% 2%;
+	clear: left;
+}
+
+ul#navbar li{
+	display: inline;
+	font-size: 125%;
+	padding: 0 3% 0 3%;
+}
+
+/*****************************************/
+/* CSS for Main Content */
+
+article{
+	clear: left;
+	float: left;
+	color: #800000;
+	padding: 0 2% 0 2%;
+	width: 65%;
+	margin: 2% 1% 2% 1%;
+}
+
+article p, li{
+	line-height: 150%;
+}
+
+aside{
+	float: left;
+	padding: 0% 2% 2% 2%;
+	width: 23%;
+	margin: 2% 0% 2% 1%;
+	color: #800000;
+}
+
+/*****************************************/
+/* CSS for Footer */
+
+footer{
+	color: #3A2727;
+	font-size: 75%;	
+}
+
+p#copyinfo{
+	clear: left;
+	float: left;
+	text-align: left;
+	margin-left: 3%;
+}
+
+p#addlinks{
+	float: right;
+	text-align: right;
+	margin-right: 3%;
+}
