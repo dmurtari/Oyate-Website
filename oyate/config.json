@@ -1,26 +1,12 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Oyate at CU Boulder",
+    "owner": "Domenic Murtari",
+    "description": "CU's Native American Student Group"
   },
-  "plugins": [
-    "./plugins/paginator.coffee"
-  ],
-  "require": {
-    "moment": "moment",
-    "_": "underscore",
-    "typogr": "typogr"
-  },
+  "baseUrl": "/",
   "jade": {
     "pretty": true
-  },
-  "markdown": {
-    "smartLists": true,
-    "smartypants": true
-  },
-  "paginator": {
-    "perPage": 3
   }
 }
